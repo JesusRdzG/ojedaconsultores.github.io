@@ -1330,36 +1330,7 @@ a:focus {
     list-style-type: none;
 }
 
-.whatsapp-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-}
 
-.whatsapp-button img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  transition: transform 0.3s;
-}
-
-.whatsapp-button img:hover {
-  transform: scale(1.1);
-}
-
-.whatsapp-button {
-  background: none !important;
-  box-shadow: none !important;
-}
-
-.whatsapp-button::before,
-.whatsapp-button::after {
-  background: none !important;
-  box-shadow: none !important;
-  content: none !important;
-}
 
 
 
