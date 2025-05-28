@@ -1349,6 +1349,19 @@ a:focus {
   transform: scale(1.1);
 }
 
+.whatsapp-button {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.whatsapp-button::before,
+.whatsapp-button::after {
+  background: none !important;
+  box-shadow: none !important;
+  content: none !important;
+}
+
+
 
 /*******************************/
 /******* Single Page CSS *******/
